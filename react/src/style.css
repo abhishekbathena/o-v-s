@@ -1,0 +1,132 @@
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Raleway", sans-serif
+        }
+        
+        body,
+        html {
+            height: 100%;
+            line-height: 1.8;
+        }
+        /* Full heig
+ht image header */
+        
+        .bgimg-1 {
+            background-position: center;
+            background-size: cover;
+            background-image: url("./mac.jpg");
+            min-height: 100%;
+        }
+        
+        #header {
+            height: 800px;
+            color: black;
+            transition: background-color 1s
+        }
+        
+        #header h1 {
+            margin: 0 0 10px 0;
+            font-size: 48px;
+            font-weight: 700;
+        }
+        
+        #header .brand-name {
+            color: #3498db;
+        }
+        
+        #header h2 {
+            color: #484848;
+            font-size: 24px;
+        }
+        
+        #header .btn-get-started {
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 1px;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 50px;
+            transition: 0.5s;
+            color: #3498db;
+            border: 2px solid#3498db;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        
+        #header .btn-get-started:hover {
+            background: #3498db;
+            color: #fff
+        }
+        
+        .header-img {
+            text-align: right;
+        }
+        
+        #contact {
+            padding: 128px 16px
+        }
+        
+        .w3-image {
+            width: 100%;
+            margin-top: 48px;
+        }
+        
+        #header .animated {
+            animation: up-down 2s ease-in-out infinite alternate-reverse both;
+        }
+        
+        @-webkit-keyframes up-down {
+            0% {
+                transform: translateY(10px);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        @keyframes up-down {
+            0% {
+                transform: translateY(10px);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        .w3-bar .w3-button {
+            padding: 16px;
+        }
+        
+        @media only screen and (max-width: 400px) {
+            #mySidebar {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 1200px) {
+            #mySidebar {
+                display: none;
+            }
+            #header h1 {
+                font-size: 35px;
+            }
+        }
+        
+        #mainsidebar {
+            display: block;
+        }
+        
+        @media only screen and (max-width: 596px) {
+            #mainsidebar {
+                width: 100%;
+            }
+        }
+        
+        .mainpg {
+            padding-left: 14%;
+        }

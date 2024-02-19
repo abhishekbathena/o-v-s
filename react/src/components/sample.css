@@ -1,0 +1,97 @@
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+    /* Set the width of the sidebar to 120px */
+    
+    .ok {
+        margin-top: 20px;
+        width: 15%;
+        background: #222;
+    }
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    
+    #main {
+        margin-left: 120px
+    }
+    /* Remove margins from "page content" on small screens */
+    
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
+        }
+    }
+    
+    .card {
+        border-radius: 25px;
+        position: relative;
+        padding: 25px 15px;
+        background-color: white;
+        margin: 50px 0;
+        height: 200px;
+        box-shadow: 0 2px 5px #ccc;
+        text-align: left;
+    }
+    
+    .top {
+        border-radius: 25px 25px 0 0;
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+    }
+    
+    #gc {
+        color: 'green'
+    }
+    
+    #wc {
+        color: 'white'
+    }
+    
+    .name {
+        font-size: 1em;
+        color: black;
+        /* display: flex;
+        flex: 1;
+        margin: 10% 20px 0; */
+    }
+    
+    .cname {
+        font-size: 2em;
+        color: red;
+        /* display: flex;
+        flex: 1;
+        margin: 10% 20px 0; */
+    }
+    
+    .card img {
+        margin: 10px 20px 0 0;
+    }
+    
+    .circle-img {
+        border-radius: 50%;
+        border: 7px solid #fff;
+        width: 120px;
+        height: 120px;
+    }
+    
+    .bottom {
+        margin-top: 100px;
+    }
+    
+    .info {
+        margin: 20px 0;
+        color: #1a7e76;
+    }
+    
+    .rcard {
+        width: 250px;
+        box-shadow: 0 4px 8px 0 rgba(100, 95, 95, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .k {
+        margin-top: 0;
+    }
